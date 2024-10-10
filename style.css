@@ -140,6 +140,7 @@ header{
 .mission-ansA{
     display: flex;
     justify-content: space-between;
+
 }
 .mission-ansA .mission-ans-text-A{
     max-width: 477px;
@@ -250,7 +251,6 @@ header{
     margin-bottom: 32px;
 }
 .g2{
-    /* max-width: 206.4px; */
     max-width: 240px;
 
 }
@@ -336,6 +336,7 @@ header{
     gap: 24px;
     justify-content: center;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 .target-row .item{
     box-sizing: border-box;
@@ -397,7 +398,6 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1044px;
-    /* margin: 0 auto; */
     margin-top: 70px;
     padding:64px 48px ;
     border-radius: 16px;
@@ -430,6 +430,9 @@ header{
     display: flex;
     gap: 16px;
     margin-top: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .support .support-clickable input{
     display: block;
@@ -472,6 +475,7 @@ footer .containerA{
     max-width: 1140px;
     margin: 0 auto;
     align-items: center;
+    flex-wrap: wrap;
 }
 footer .containerA .footer-text{
     color: rgb(13, 19, 33);
