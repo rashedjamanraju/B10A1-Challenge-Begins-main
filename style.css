@@ -60,6 +60,8 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    width: 79.167%;
+    margin: 0 auto;
 }
 .containerB .hero_section h2{
     color: rgb(13, 19, 33);
