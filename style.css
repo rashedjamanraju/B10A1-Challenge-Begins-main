@@ -250,7 +250,9 @@ header{
     margin-bottom: 32px;
 }
 .g2{
-    max-width: 206.4px;
+    /* max-width: 206.4px; */
+    max-width: 240px;
+
 }
 
 .inspiration{
@@ -332,8 +334,8 @@ header{
 .items{
     display: flex;
     gap: 24px;
-    align-items: center;
     justify-content: center;
+    align-items: stretch;
 }
 .target-row .item{
     box-sizing: border-box;
@@ -469,6 +471,7 @@ footer .containerA{
     justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
+    align-items: center;
 }
 footer .containerA .footer-text{
     color: rgb(13, 19, 33);
