@@ -17,6 +17,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .navigation h2{
     color: rgb(13, 19, 33);
@@ -29,7 +30,6 @@ header{
     padding-bottom:36px;
 }
 .navigation button{
-    color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -40,6 +40,11 @@ header{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+}
+.navigation button a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+
 }
 .containerB{
     width: 100%;
@@ -67,7 +72,6 @@ header{
 }
 .containerB .hero_section p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -77,9 +81,12 @@ header{
     max-width: 852px;
     margin-bottom: 8px;
 }
-.containerB .hero_section button{
+.containerB .hero_section button a{
+    text-decoration: none;
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
+
+}
+.containerB .hero_section button{
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -89,7 +96,395 @@ header{
     background: rgb(13, 19, 33);
     padding: 21px 24px;
 }
+
 .containerB .hero_section .graphics1{
     max-width: 240.28px;
     width: 240.28px;
+}
+
+
+.mission-section{
+    max-width: 852px;
+    margin: 0 auto;
+    margin-top: 154px;
+}
+.mission-section .mission-question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+.mission-section .mission-question h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+.mission-section .mission-question p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+.mission-section .mission-ansA{
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 98px;
+}
+
+.mission-ansA{
+    display: flex;
+    justify-content: space-between;
+}
+.mission-ansA .mission-ans-text-A{
+    max-width: 477px;
+}
+.mission-ansA .mission-ans-text-A h3{
+    max-width: 390px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.mission-ansA .mission-ans-text-A p{
+    max-width: 477px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.mission-btn{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;    
+}
+.g0{
+    max-width: 259.56px;
+}
+.mission-section .mission-ansB{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+}
+.mission-ans-text-B{
+    width: 578px;
+    max-width: 578px;
+
+}
+.mission-ansB .mission-ans-text-B h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 477px;
+    margin-top: 10.5px;
+}
+.mission-ansB .mission-ans-text-B p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    max-width: 468px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.g1{
+    max-width: 223.2px;
+}
+.mission-section .mission-ansC{
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 138.5px;
+}
+
+.mission-ansC{
+    display: flex;
+    justify-content: space-between;
+}
+.mission-ansC .mission-ans-text-C{
+    max-width: 477px;
+}
+.mission-ansC .mission-ans-text-C h3{
+    max-width: 390px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.mission-ansC .mission-ans-text-C p{
+    max-width: 477px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.g2{
+    max-width: 206.4px;
+}
+
+.inspiration{
+    margin-top: 218px;
+}
+
+.inspiration .inspiration-text{
+    max-width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+.inspiration .inspiration-text h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+.inspiration .inspiration-text p{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-top: 24px;
+}
+
+.inspiration-video{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 48px;
+}
+.inspiration-video div{
+    width: 94.38%;
+    margin: 0 auto;
+}
+
+.inspiration-video div video{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.target-text{
+    max-width: 852px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.target-text h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+.target-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.target-row{
+    margin-top: 48px;
+}
+.items{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.target-row .item{
+    box-sizing: border-box;
+    padding: 40px;
+    width: 364px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.target-row .items .img-container{
+    max-width: 56px;
+}
+
+.target-row .items .item h3{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.target-row .items .item p{
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+.target-row .items .item a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.target-row .items .itemA{
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-row .items .itemB{
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-row .items .itemC{
+    background: rgba(255, 223, 0, 0.05);
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1044px;
+    /* margin: 0 auto; */
+    margin-top: 70px;
+    padding:64px 48px ;
+    border-radius: 16px;
+}
+.support-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 606px;
+    gap: 16px;
+}
+.support-text h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.support-text p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+.support .support-clickable{
+    width: 65.517%;
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+.support .support-clickable input{
+    display: block;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    width:80.11% ;
+    padding: 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.support .support-clickable button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px;
+    width: 17.54%;
+    min-width: 120px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+    padding-top:32px ;
+    padding-bottom:32px ;
+}
+footer .containerA{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+footer .containerA .footer-text{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+footer .containerA ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+footer .containerA ul li{
+    max-width: 36px;
+    max-height: 36px;
+}
+footer .containerA ul li img{
+    width: 100%;
+    height: 100%;
 }
